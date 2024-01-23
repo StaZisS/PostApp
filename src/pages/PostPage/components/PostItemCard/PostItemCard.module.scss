@@ -1,0 +1,67 @@
+.PostItemCard {
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  background-color: var(--Gray);
+
+  div {
+    padding: 10px;
+  }
+
+  .postHeader {
+    .postHeaderInfo {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--font-black);
+    }
+
+    .postHeaderTitle {
+      font-size: 14px;
+
+      h2 {
+        color: var(--font-dark-gray);
+      }
+    }
+  }
+
+  .postImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      min-width: 300px;
+      max-width: 80vw;
+    }
+  }
+
+  .postBody {
+    max-width: 90vw;
+    overflow-x: auto;
+
+  }
+
+  .postFooter {
+    background-color: var(--secondary-yellow);
+    display: flex;
+    border-radius: 6px;
+    justify-content: space-between;
+    height: 40px;
+
+    div {
+      display: flex;
+      align-items: center;
+    }
+
+    img {
+      margin: 10px;
+      width: 16px;
+    }
+  }
+}
+
+.short_text {
+  display: inline-block;
+  max-height: 50%;
+  overflow: hidden;
+}

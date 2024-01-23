@@ -1,0 +1,17 @@
+<svg width="42" height="38" viewBox="0 0 42 38" fill="red" xmlns="http://www.w3.org/2000/svg">
+    <g id="bpmn:trash">
+        <path id="Vector"
+              d="M8.44883 11.9553L11.0535 34.8099H31.7547L34.1552 11.9596H8.44873L8.44883 11.9553ZM11.3654 14.3676H31.2737L29.3726 32.3935H13.4269L11.3654 14.3676Z"
+              fill="red"/>
+        <g id="Group">
+            <path id="Vector_2" d="M15.4917 17.4994L17.3368 29.637" stroke="red" stroke-width="0.964368"
+                  stroke-linecap="round"/>
+            <path id="Vector_3" d="M27.1351 17.4994L25.292 29.637" stroke="red" stroke-width="0.964368"
+                  stroke-linecap="round"/>
+        </g>
+        <path id="Vector_4" d="M15.943 6.25879L7.56689 8.51036V9.63704H35.0612V8.51036L26.5829 6.25879H15.943Z"
+              fill="red"/>
+        <path id="Vector_5" d="M16.6528 3.92297H25.9755V7.04127H16.6529L16.6528 3.92297Z" fill="red"
+              stroke-width="0.546503" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+</svg>

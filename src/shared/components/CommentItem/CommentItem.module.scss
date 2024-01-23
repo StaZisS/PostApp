@@ -1,0 +1,63 @@
+.CommentItem {
+  margin: 10px;
+  padding: 10px;
+
+  .author {
+    display: flex;
+
+    img {
+      width: 20px;
+    }
+  }
+
+  .commentFooter {
+    display: flex;
+
+    div {
+      margin-right: 10px;
+    }
+  }
+
+  .content {
+    display: flex;
+
+    .modifiedBlock:hover {
+      margin-left: 10px;
+
+      .modified {
+        display: none;
+      }
+
+      .modifiedInfo {
+        display: block;
+        color: white;
+      }
+    }
+
+    .modifiedBlock {
+      margin-left: 10px;
+
+      .modified {
+        color: gray;
+      }
+
+      .modifiedInfo {
+        display: none;
+      }
+    }
+  }
+
+  .inputField {
+    display: flex;
+    width: 100%;
+  }
+
+  .inputField input {
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  .openSubComments {
+
+  }
+}

@@ -1,0 +1,37 @@
+.communityItem {
+  display: flex;
+  justify-content: space-between;
+
+  border-radius: 6px;
+  background-color: var(--Gray);
+
+  div {
+    padding: 10px;
+  }
+
+  .nameCommunity {
+    font-weight: bold;
+    font-size: 25px;
+
+    span {
+      color: rgba(0, 0, 0, 0.8);
+    }
+  }
+
+  .subscribeButton {
+    background-color: #3333d973;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .unsubscribeButton {
+    background-color: #c5020247;
+    border-radius: 6px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+}

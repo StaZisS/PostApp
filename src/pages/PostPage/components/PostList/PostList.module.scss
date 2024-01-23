@@ -1,0 +1,34 @@
+.PostList {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 95vw;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.createPostButton {
+  display: flex;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+.linkToPage {
+  text-decoration: none;
+  color: var(--font-dark-gray);
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: var(--yellow-button);
+  margin-top: 20px;
+  width: 100px;
+  text-align: center;
+}
+
+.selectedPage {
+  background-color: var(--green);
+}

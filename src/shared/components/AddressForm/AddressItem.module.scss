@@ -1,0 +1,20 @@
+.formItem {
+  display: flex;
+  gap: 6px;
+  flex-direction: column;
+  padding-bottom: 12px;
+
+  input {
+    border-radius: 8px;
+    height: 18px;
+    padding: 4px;
+  }
+
+  label {
+    font-size: 18px;
+  }
+
+  p {
+    margin-top: 0;
+  }
+}
